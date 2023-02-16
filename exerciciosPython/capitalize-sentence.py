@@ -5,3 +5,5 @@ def to_jaden_case(string):
     for word in x:
      y += word.capitalize() +" " 
     return y.strip()
+
+#   return ' '.join(word.capitalize() for word in string.split()) / outro jeito
